@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { VideoContext } from '../context/VideoContext'
 import chotabheem from '../assets/chotabheem.mp4'
-import Goat from '../assets/GOAT.mp4'
 
 export const VideoProvider = ({ children }) => {
 
@@ -22,7 +21,7 @@ export const VideoProvider = ({ children }) => {
             id: 3,
             name: 'Bike',
             description: 'danger',
-            videolink: 'https://drive.google.com/file/d/1HoYz9pYGy53daoglDkKHaIwhi74KV_x3/view?usp=sharing'
+            videolink: 'https://drive.google.com/file/d/1HoYz9pYGy53daoglDkKHaIwhi74KV_x3/preview'
         }
     ]
     

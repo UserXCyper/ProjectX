@@ -4,11 +4,11 @@ import { UserContext } from '../context/UserContext'
 
 export const Home = () => {
 
-  const {User} = useContext(UserContext)
+  const { User } = useContext(UserContext)
 
   // useRef can access to element 
   const emailRef = useRef('email')
-  const handleChange = () =>{
+  const handleChange = () => {
     console.log(emailRef.current.value);
     emailRef.current.focus()
     emailRef.current.style.border = '1px solid red'
@@ -33,7 +33,14 @@ export const Home = () => {
                 <div className="flex flex-col">
                   <h1>{items.id}</h1>
                   <h1>{items.name}</h1>
-                  <iframe src={items.videolink} width='300' height='200' frameborder="0"></iframe>
+                  <iframe
+                    src={items.videolink}
+                    width="300"
+                    height="200"
+                    allow="autoplay"
+                    allowFullScreen
+                  />
+
                   <h1>{items.description}</h1>
                 </div>
               </div>
@@ -48,7 +55,7 @@ export const Home = () => {
         <form action="">
           <div className='m-5'>
             <label htmlFor="email">Email</label>
-          <input className='w-300 h-10 rounded-2xl' ref={emailRef} type="email" name="email" id="email" />
+            <input className='w-300 h-10 rounded-2xl' ref={emailRef} type="email" name="email" id="email" />
           </div>
           <button className='w-20 h-10 border rounded-2xl' onClick={handleChange} type='button'>Submit</button>
         </form>
