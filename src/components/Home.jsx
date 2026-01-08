@@ -33,7 +33,7 @@ export const Home = () => {
                 <div className="flex flex-col">
                   <h1>{items.id}</h1>
                   <h1>{items.name}</h1>
-                  <video className='w-80 h-50' src={items.videolink} controls />
+                  <iframe src={items.videolink} width='300' height='200' frameborder="0"></iframe>
                   <h1>{items.description}</h1>
                 </div>
               </div>

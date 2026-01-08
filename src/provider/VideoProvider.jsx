@@ -10,19 +10,19 @@ export const VideoProvider = ({ children }) => {
             id: 1,
             name: 'GOAT - New Trailer (HD)',
             description: 'danger',
-            videolink: Goat
+            videolink:''
         },
         {
             id: 2,
             name: 'Chota Bheem fan made trailer',
             description: 'danger',
-            videolink: chotabheem
+            videolink: ''
         },
         {
             id: 3,
             name: 'Bike',
             description: 'danger',
-            videolink: 'https://youtu.be/_A1fJyEBrm4?si=0L0QAnMA-wQP-vfI'
+            videolink: 'https://drive.google.com/file/d/1HoYz9pYGy53daoglDkKHaIwhi74KV_x3/view?usp=sharing'
         }
     ]
     
