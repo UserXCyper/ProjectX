@@ -40,7 +40,6 @@ export const Home = () => {
                     allow="autoplay"
                     allowFullScreen
                   />
-
                   <h1>{items.description}</h1>
                 </div>
               </div>
