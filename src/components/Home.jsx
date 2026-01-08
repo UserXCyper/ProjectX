@@ -38,6 +38,7 @@ export const Home = () => {
                     width="300"
                     height="200"
                     allowFullScreen
+                    autoPlay= 'false'
                   />
                   <h1>{items.description}</h1>
                 </div>
@@ -46,17 +47,6 @@ export const Home = () => {
           }
 
         </div>
-      </div>
-
-      <div className='w-full border'>
-        <span>{emailRef.current.value}</span>
-        <form action="">
-          <div className='m-5'>
-            <label htmlFor="email">Email</label>
-            <input className='w-300 h-10 rounded-2xl' ref={emailRef} type="email" name="email" id="email" />
-          </div>
-          <button className='w-20 h-10 border rounded-2xl' onClick={handleChange} type='button'>Submit</button>
-        </form>
       </div>
     </>
   )
