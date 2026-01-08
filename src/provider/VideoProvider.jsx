@@ -19,8 +19,8 @@ export const VideoProvider = ({ children }) => {
         },
         {
             id: 3,
-            name: 'Bike',
-            description: 'danger',
+            name: 'GOAT - New Trailer (HD)',
+            description: 'GOAT - New Trailer (HD)',
             videolink: 'https://res.cloudinary.com/ddts2iw9t/video/upload/GOAT_New_Trailer_HD_-_Sony_Pictures_Entertainment_1080p_h264_jrnb5r.mp4'
         }
     ]

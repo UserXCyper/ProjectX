@@ -31,7 +31,7 @@ export const Home = () => {
                 "
               >
                 <div className="flex flex-col">
-                  <h1>{items.id}</h1>
+                  <h1 className='font-bold'>{items.id}</h1>
                   <h1>{items.name}</h1>
                   <iframe
                     src={items.videolink}
