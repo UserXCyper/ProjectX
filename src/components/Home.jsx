@@ -37,7 +37,6 @@ export const Home = () => {
                     src={items.videolink}
                     width="300"
                     height="200"
-                    allow="autoplay"
                     allowFullScreen
                   />
                   <h1>{items.description}</h1>
